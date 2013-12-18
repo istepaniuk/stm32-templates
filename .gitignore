@@ -5,3 +5,6 @@ blink-*/*.o
 blink-*/*.elf
 blink-*/*.lst
 blink-*/*.app
+
+# Backup files
+*.*~
