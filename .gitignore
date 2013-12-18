@@ -1,18 +1,7 @@
 # Object files
-*.o
-*.ko
-
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+blink-*/*.o
 
 # Executables
-*.exe
-*.out
-*.app
+blink-*/*.elf
+blink-*/*.lst
+blink-*/*.app
