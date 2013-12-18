@@ -3,7 +3,7 @@ STM32 Blink Templates
 
 It is difficult to start developing for embedded devices in a new environment and in an unknown platform, I consider the propietary IDEs for embedded ARM development to be horribly bloated, and in most cases they only support Microsoft Windows.
 
-These are three working "blinking led" examples for the STM32F1XX embedded ARM Cortex-M3 Discovery evaluation board. Starting from these working examples it should be easier to extend them into real embeded applications.
+These are three working "blinking led" examples for the STM32F1XX embedded ARM Cortex-M3 Discovery evaluation board. Starting from these working examples it should be easier to extend them into real embeded applications, using the GNU toolchain, under GNU/Linux, with your favorite, or without any IDE. Awesome.
 
 In the root directory you will find a cross-compiling toolchain targeting ARM, that should work on any x86 Linux system. The toolchain was copied from CodeSourcery, any standard toolchain should work provided that you update the paths in the Makefiles. All makefiles reference to this toolchain.
 
