@@ -25,4 +25,6 @@ C approach using the CMSIS (Cortex™ Microcontroller Software Interface Standar
 * In all three examples, there is a `load` bash script that contains the gdb commands to flash the `.elf` into the connected device.
 * The `target extended-remote :4242` command in the `load` script connects to your local port 4242, the default port in which st-util will listen to, so st-util has to be running.
 
-* All these examples work in the Discovery 32VL board, containing the STM32F100 Medium Density VL, using the v1 version of the st-link protocol (I run st-util like `./st-util -1`) 
+* All these examples work in the Discovery 32VL board, containing the STM32F100 Medium Density VL (pictured), using the v1 version of the st-link protocol (I run st-util like `./st-util -1`)
+
+![Discovery 32VL](http://blog.istepaniuk.com/wp-content/uploads/discovery.jpg)
