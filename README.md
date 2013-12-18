@@ -10,7 +10,7 @@ In the root directory you will find a cross-compiling toolchain targeting ARM, t
 The repo contains three versions of the classical blinking led example:
 
 ##blink-asm
-Minimalist approach, just an ARM assembler source, linker script and a Makefile.
+Minimalistic approach, just an ARM assembler source, linker script and a Makefile.
 
 ##blink-plain
 Plain C approach, the simplest C source code, linker script and a Makefile. 
