@@ -9,17 +9,17 @@ In the root directory you will find a cross-compiling toolchain targeting ARM, t
 
 The repo contains three versions of the classical blinking led example:
 
-##blink-asm
+## blink-asm
 Minimalistic approach, just an ARM assembler source, linker script and a Makefile.
 
-##blink-plain
+## blink-plain
 Plain C approach, the simplest C source code, linker script and a Makefile. 
 TODO: Note that this can be further stripped down, it is still using the startup code from the CMSIS version, but not the complete libraries.
 
-##blink-cmsis
+## blink-cmsis
 C approach using the CMSIS (Cortex™ Microcontroller Software Interface Standard) common libraries and the ST libraries for the STM32F1XX part. As the other examples, it also contains a linker script and a Makefile that should just work.
 
-##Flashing, running!
+## Flashing, running!
 * You will need to setup and run `st-util` from texane's stlink, follow the instructions [here](https://github.com/texane/stlink)
 * Running `make` on each blink-* directory should compile and create a binary `.elf`, ready to be loaded.
 * In all three examples, there is a `load` bash script that contains the gdb commands to flash the `.elf` into the connected device.
