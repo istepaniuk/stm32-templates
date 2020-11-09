@@ -1,3 +1,8 @@
+# THIS IS OLD! VERY OLD!!!
+
+I left it here for reference as it might be useful to go "back to the basics". Nowadays, this is thankfully much more accessible. [Check platformio](https://platformio.org) for a quick start.
+
+
 STM32 Blink Templates
 =====================
 
